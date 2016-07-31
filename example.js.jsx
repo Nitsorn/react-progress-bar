@@ -15,7 +15,10 @@ var App = React.createClass({
   render: function() {
     return (
       <div>
-        <ProgressBar completed={this.state.completeLoading} loading={this.state.startLoading} resetLoading={this.resetLoading} />
+        <ProgressBar
+          completed={this.state.completeLoading}
+          loading={this.state.startLoading}
+          resetLoading={this.resetLoading} />
         {
           // The rest of the component.
         }
