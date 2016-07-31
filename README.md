@@ -5,6 +5,7 @@ Loading bar for your React.js app. Similar to one used in Youtube.
 ![alt tag](http://oatlikeoatmeal.com/files/react-loading-bar.png)
 
 # Setup
+### In your component.js.jsx
 ```javascript
 require ('react-progress-bar');
 
@@ -46,6 +47,8 @@ var component = React.createClass({
 });
 
 ```
+### In your CSS
+Add the content of `stylesheet.css` to your CSS.
 
 # Usage
 Call `this.startLoading()` to start the loading animation.
