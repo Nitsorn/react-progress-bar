@@ -5,7 +5,11 @@ Loading bar for your React.js app. Similar to one used in Youtube.
 ![alt tag](http://oatlikeoatmeal.com/files/react-loading-bar.png)
 
 # Setup
-### In your component.js.jsx
+### 1. npm install
+`npm install simple-react-progress-bar`
+
+
+### 2. In your component.js.jsx
 ```javascript
 require ('react-progress-bar');
 
@@ -47,7 +51,7 @@ var component = React.createClass({
 });
 
 ```
-### In your CSS
+### 3. In your CSS
 Add the content of `stylesheet.css` to your CSS.
 
 # Usage
@@ -57,17 +61,23 @@ Call `this.endLoading()` to stop the loading animation.
 For example, in an ajax call:
 ```javascript
 gettingNewStuff: function(){
+
   this.startLoading();
+  
   $.ajax({
     url: '/get_new_stuff',
     type: 'get',
     success: function(){
+    
       // success feedback
       this.endLoading();
+      
     },
     error: function(){
+    
       // error feedback
       this.endLoading();
+      
     }
     
   })
