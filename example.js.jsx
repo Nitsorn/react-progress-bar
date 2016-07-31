@@ -1,6 +1,6 @@
 var React = require('react');
 var PropTypes = React.PropTypes;
-require ('react-progress-bar');
+var ProgressBar = require ('react-progress-bar');
 
 var App = React.createClass({
 
@@ -25,7 +25,7 @@ var App = React.createClass({
 
   // Add these 3 methods
   startLoading: function(){
-		this.setState({startLoading: true});
+	   this.setState({startLoading: true});
 	},
 
 	endLoading: function(){
