@@ -1,5 +1,6 @@
 var React = require('react');
 var PropTypes = React.PropTypes;
+require ('react-progress-bar');
 
 var App = React.createClass({
 
