@@ -1,0 +1,26 @@
+{
+  "name": "simple-react-progress-bar",
+  "version": "1.0.0",
+  "description": "Simple react Progress (Loading) Bar",
+  "main": "progressBar.js.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nitsorn/react-progress-bar.git"
+  },
+  "keywords": [
+    "react",
+    "progress",
+    "loading",
+    "bar",
+    "reactjs"
+  ],
+  "author": "Oat Wongsajjathiti (oatlikeoatmeal.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nitsorn/react-progress-bar/issues"
+  },
+  "homepage": "https://github.com/Nitsorn/react-progress-bar#readme"
+}
