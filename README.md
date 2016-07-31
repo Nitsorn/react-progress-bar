@@ -11,7 +11,7 @@ Loading bar for your React.js app. Similar to one used in Youtube.
 
 ### 2. In your component.js.jsx
 ```javascript
-require ('react-progress-bar');
+var Progressbar = require ('react-progress-bar');
 
 var component = React.createClass({
   getInitialState: function() {
