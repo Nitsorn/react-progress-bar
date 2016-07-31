@@ -1,7 +1,7 @@
 {
   "name": "simple-react-progress-bar",
-  "version": "1.0.0",
-  "description": "Simple react Progress (Loading) Bar",
+  "version": "2.0.0",
+  "description": "Simple reactjs progressbar",
   "main": "progressBar.js.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,10 +12,11 @@
   },
   "keywords": [
     "react",
+    "progressbar",
     "progress",
-    "loading",
     "bar",
-    "reactjs"
+    "loading",
+    "loadingbar"
   ],
   "author": "Oat Wongsajjathiti (oatlikeoatmeal.com)",
   "license": "ISC",
