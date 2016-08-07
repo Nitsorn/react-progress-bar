@@ -35,10 +35,10 @@ var component = React.createClass({
 
   // Add these 3 methods
   startLoading: function(){
-		this.setState({startLoading: true});
-	},
+    this.setState({startLoading: true});
+  },
 
-	endLoading: function(){
+  endLoading: function(){
     this.setState({completeLoading: true});
   },
 
